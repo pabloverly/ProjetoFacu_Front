@@ -1,15 +1,16 @@
 <header class="container container__md">
-   <div class="home" (click)="navigateToHome()">
-        <img src="../../../assets/images/iconBrand.svg" alt="Logo com dois copos de cafe seguido pelo titúlo coffee delivery" />
-   </div>
-   <nav>
-       <div class="location">
-         <fa-icon class="location__icon" [icon]="faTag"></fa-icon>
-           <span>Porto alegre</span>
-       </div>
-       <div class="cart" (click)="navigateToCartCheckout()">
-          <fa-icon class="cart__icon" [icon]="faCartShopping"></fa-icon>
-          <sub>{{ products.length }}</sub>
-       </div>
-</nav>
+  <div class="home" (click)="navigateToHome()">
+    <img src="../../../assets/images/iconBrand.svg"
+      alt="Logo com dois copos de cafe seguido pelo titúlo coffee delivery" />
+  </div>
+  <nav>
+    <div class="location">
+      <fa-icon class="location__icon" [icon]="faTag"></fa-icon>
+      <!-- <span>Porto alegre</span> -->
+    </div>
+    <div class="cart" (click)="navigateToCartCheckout()">
+      <fa-icon class="cart__icon" [icon]="faCartShopping"></fa-icon>
+      <sub>{{ products.length }}</sub>
+    </div>
+  </nav>
 </header>

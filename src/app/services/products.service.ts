@@ -10,9 +10,10 @@ import { IProduct, IProducts } from '../interfaces/Product';
 export class ProductsService {
   private baseApiUrl = environment.baseApiUrl;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   getProducts(): Observable<IProduct[]> {
-    return this.http.get<IProduct[]>(this.baseApiUrl);
+    // return this.http.get<IProduct[]>(this.baseApiUrl);
+    return this.http.get<IProduct[]>(this.baseApiUrl + '/Produto/with-variations');
   }
 }
