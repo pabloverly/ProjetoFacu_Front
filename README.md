@@ -1,6 +1,6 @@
 ## Coffee Delivery
 
-Projeto de uma cafeteria fictícia criado em Angular versão 14 para estudo de RxJS.
+Projeto de uma cafeteria fictícia criado em Angular versão 14.
 
 Para rodar o projeto baixe o mesmo e instale as depêndencias com npm install ou yarn,conforme seu gerenciadores de pacotes. 
 
